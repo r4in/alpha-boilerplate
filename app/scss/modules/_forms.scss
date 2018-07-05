@@ -1,0 +1,38 @@
+label {
+  font-family: $exo;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #22292e;
+}
+
+textarea {
+  padding: 12px;
+}
+
+.form-control {
+  background-color: #f4f7f8;
+  border-color: #f4f7f8;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  &::placeholder {
+    color: #b9c5d1;
+  }
+  &:focus {
+    border-color: #ff9c2e;
+    box-shadow: none;
+    background-color: #f4f7f8;
+  }
+}
+
+.form-control[type="text"],
+.form-control[type="email"] {
+  min-height: 55px;
+}

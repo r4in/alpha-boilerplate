@@ -1,0 +1,101 @@
+.page-corporate {
+  header {
+    position: relative;
+    background: url(/img/bg-header.jpg) top center no-repeat;
+    background-size: cover;
+    h6,
+    p {
+      color: #fff;
+    }
+    h6 {
+      margin-bottom: 10px;
+    }
+    > .header-content {
+      padding-bottom: 100px;
+      padding-top: 50px;
+      position: relative;
+      z-index: 1;
+    }
+    > .element-1 {
+      position: absolute;
+      bottom: -2px;
+      > img {
+        width: 100vw;
+        transition: none;
+      }
+    }
+  }
+
+  .section-content {
+    padding-top: 0;
+    @include breakpoint(lg) {
+      padding-top: 40px;
+    }
+    @include breakpoint(md) {
+      padding-top: 60px;
+    }
+  }
+
+  .section-courses {
+    .element-1 {
+      position: absolute;
+      right: 0;
+    }
+  }
+
+  .section-contact {
+    background: url(../img/bg-contact.jpg) center no-repeat;
+    background-size: cover;
+  }
+
+  .section-steps {
+    position: relative;
+    padding-top: 40px;
+    .title-section {
+      padding-bottom: 40px;
+    }
+    .element-1 {
+      position: absolute;
+      left: calc(50% - 45px);
+      top: calc(50% - 300px);
+      display: none;
+    }
+    .element-2 {
+      position: absolute;
+      right: -30%;
+      top: 10px;
+    }
+    .element-3 {
+      position: absolute;
+      left: -30%;
+      top: 10px;
+    }
+  }
+
+  .section-testimonial {
+    position: relative;
+    overflow: hidden;
+    margin-top: 70px;
+    > .element-1 {
+      position: absolute;
+      left: 75%;
+      top: 0;
+      @include breakpoint(md) {
+        right: -300px;
+      }
+      @include breakpoint(sm) {
+        right: -400px;
+      }
+      @include breakpoint(xs) {
+        display: none;
+      }
+    }
+  }
+
+  .section-cta {
+    hr {
+      margin: 0;
+      margin-bottom: 60px;
+    }
+  }
+}

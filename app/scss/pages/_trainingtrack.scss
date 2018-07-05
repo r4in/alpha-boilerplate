@@ -1,0 +1,107 @@
+.page-trainingtrack {
+  header {
+    position: relative;
+    background: url(/img/bg-header.jpg) top center no-repeat;
+    background-size: cover;
+    h6,
+    p {
+      color: #fff;
+    }
+    h6 {
+      margin-bottom: 10px;
+    }
+    > .header-content {
+      padding-top: 50px;
+      position: relative;
+      z-index: 1;
+      padding-bottom: 7%;
+    }
+    > .element-1 {
+      position: absolute;
+      bottom: -2px;
+      > img {
+        width: 100vw;
+        transition: none;
+      }
+    }
+  }
+
+  .card-track {
+    margin-bottom: 40px;
+  }
+  .section-content {
+    padding-top: 0;
+    @include breakpoint(lg) {
+      padding-top: 40px;
+    }
+    @include breakpoint(md) {
+      padding-top: 60px;
+    }
+  }
+  .section-training {
+    padding-top: 0;
+    padding-bottom: 0;
+    position: relative;
+    > .element-1 {
+      position: absolute;
+      right: -400px;
+      top: 20%;
+    }
+    > .element-2 {
+      position: absolute;
+      left: -50%;
+      bottom: 0;
+    }
+  }
+
+  .section-steps {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 0;
+    .title-section {
+      padding-bottom: 40px;
+    }
+    .element-1 {
+      position: absolute;
+      left: calc(50% - 45px);
+      top: calc(50% - 300px);
+      display: none;
+    }
+    .element-2 {
+      position: absolute;
+      right: -30%;
+      top: 10px;
+    }
+    .element-3 {
+      position: absolute;
+      left: -30%;
+      top: 10px;
+    }
+  }
+
+  .section-testimonial {
+    position: relative;
+    overflow: hidden;
+    > .element-1 {
+      position: absolute;
+      left: 75%;
+      top: 0;
+      @include breakpoint(md) {
+        right: -300px;
+      }
+      @include breakpoint(sm) {
+        right: -400px;
+      }
+      @include breakpoint(xs) {
+        display: none;
+      }
+    }
+  }
+
+  .section-cta {
+    hr {
+      margin: 0;
+      margin-bottom: 60px;
+    }
+  }
+}

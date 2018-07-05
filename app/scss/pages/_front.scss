@@ -1,0 +1,200 @@
+.page-front {
+  header {
+    position: relative;
+    overflow: hidden;
+    background: url(/img/bg-header.jpg) top center no-repeat;
+    background-size: cover;
+    @include breakpoint(xs) {
+      text-align: center;
+    }
+    p {
+      color: #fff;
+    }
+    h6 {
+      margin-bottom: 20px;
+      color: #fff;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    > .header-content {
+      padding-bottom: 130px;
+      padding-top: 50px;
+      position: relative;
+      z-index: 1;
+    }
+    > .element-1 {
+      position: absolute;
+      right: -5%;
+      bottom: 2px;
+      z-index: 1;
+      top: 150px;
+      @include breakpoint(xl) {
+        left: 50%;
+      }
+      @include breakpoint(lg) {
+        left: 50%;
+      }
+      @include breakpoint(md) {
+        left: 56%;
+      }
+      @include breakpoint(sm) {
+        display: none;
+      }
+    }
+    > .element-2 {
+      position: absolute;
+      bottom: -2px;
+      > img {
+        width: 100vw;
+        transition: none;
+      }
+    }
+  }
+  .section-features {
+    position: relative;
+    padding-top: 30px;
+    transition: none;
+    > .element-3 {
+      position: absolute;
+      top: 0;
+    }
+  }
+  .section-press {
+    padding: 0;
+  }
+
+  .section-tracks {
+    position: relative;
+    > .element-1 {
+      position: absolute;
+      right: 70%;
+      top: 0;
+    }
+  }
+
+  .section-advantage {
+    padding-top: 7.5rem;
+  }
+
+  .section-stats {
+    position: relative;
+    padding: 70px 0;
+    @include breakpoint(sm) {
+      text-align: center;
+    }
+    .element-1 {
+      position: absolute;
+      right: 60%;
+      top: 0;
+      @include breakpoint(sm) {
+        opacity: 0.1;
+      }
+    }
+    .element-2 {
+      position: absolute;
+      top: 0;
+      left: 80%;
+      @include breakpoint(sm) {
+        opacity: 0.1;
+      }
+    }
+    .element-3 {
+      position: absolute;
+      right: 90%;
+      @include breakpoint(lg) {
+        right: 95%;
+      }
+      @include breakpoint(sm) {
+        opacity: 0.1;
+      }
+    }
+    .element-4 {
+      position: absolute;
+      left: 90%;
+      @include breakpoint(lg) {
+        left: 95%;
+      }
+      @include breakpoint(sm) {
+        opacity: 0.1;
+      }
+    }
+    h1 {
+      font-size: 64px;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #ffac32;
+      margin-bottom: 0;
+    }
+    img {
+      border-radius: 20px;
+      @include breakpoint(sm) {
+        margin-bottom: 20px;
+        max-height: 300px;
+      }
+    }
+    p {
+      margin-top: 20px;
+      font-size: 15px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.75;
+      letter-spacing: normal;
+      color: #606e7b;
+      position: relative;
+      left: 30px;
+      &:before {
+        content: "";
+        display: block;
+        height: 14px;
+        width: 14px;
+        background-color: #ffac32;
+        position: absolute;
+        left: -30px;
+        border-radius: 4px;
+        margin-top: 4px;
+        @include breakpoint(sm) {
+          display: none;
+        }
+      }
+      @include breakpoint(sm) {
+        position: static;
+      }
+    }
+  }
+
+  .section-testimonial {
+    position: relative;
+    overflow: hidden;
+    > .element-1 {
+      position: absolute;
+      left: 75%;
+      top: 0;
+      @include breakpoint(md) {
+        right: -300px;
+      }
+      @include breakpoint(sm) {
+        right: -400px;
+      }
+      @include breakpoint(xs) {
+        display: none;
+      }
+    }
+  }
+
+  .section-cta {
+    hr {
+      margin: 0;
+      margin-bottom: 60px;
+    }
+  }
+
+  .section-content {
+    @include breakpoint(xs) {
+      text-align: center;
+    }
+  }
+}

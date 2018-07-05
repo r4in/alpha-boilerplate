@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Aktiv Grotesk";
+  src: url("../fonts/AktivGrotesk-Regular.woff2") format("woff2"),
+    url("../fonts/AktivGrotesk-Regular.woff") format("woff"),
+    url("../fonts/AktivGrotesk-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Aktiv Grotesk Medium";
+  src: url("../fonts/AktivGrotesk-Medium.woff2") format("woff2"),
+    url("../fonts/AktivGrotesk-Medium.woff") format("woff"),
+    url("../fonts/AktivGrotesk-Medium.otf") format("opentype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Aktiv Grotesk Bold";
+  src: url("../fonts/AktivGrotesk-Bold.woff2") format("woff2"),
+    url("../fonts/AktivGrotesk-Bold.woff") format("woff"),
+    url("../fonts/AktivGrotesk-Bold.otf") format("opentype");
+}
+@import url("https://fonts.googleapis.com/css?family=Exo+2:400,600");
+
+$aktiv: "Aktiv Grotesk", Arial, Helvetica, sans-serif;
+$aktiv-m: "Aktiv Grotesk Medium", Arial, Helvetica, sans-serif;
+$aktiv-b: "Aktiv Grotesk Bold", Arial, Helvetica, sans-serif;
+$exo: "Exo 2", sans-serif;
