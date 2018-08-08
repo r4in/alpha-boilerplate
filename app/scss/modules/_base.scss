@@ -1,4 +1,5 @@
 * {
+  transition: all 200ms ease-in-out;
 }
 
 :root {
@@ -15,98 +16,6 @@ body {
 }
 
 section {
-  padding-top: 3.75rem;
-  padding-bottom: 3.75rem;
-  overflow: hidden;
-}
-
-h1 {
-  font-family: $aktiv-b, Arial, Helvetica, sans-serif;
-  font-size: 64px;
-  line-height: 1.09;
-  color: #ffffff;
-}
-h2 {
-  font-family: $aktiv-m;
-  font-size: 48px;
-  font-weight: bold;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #22292e;
-  @include breakpoint(sm) {
-    font-size: 42px;
-  }
-  @include breakpoint(xs) {
-    font-size: 36px;
-  }
-}
-
-h3 {
-  font-family: $aktiv-b;
-  font-size: 30px;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.2;
-  letter-spacing: normal;
-  color: #222930;
-  margin-bottom: 0;
-  @include breakpoint(sm) {
-    font-size: 24px;
-  }
-}
-
-h4 {
-  font-family: $aktiv-m;
-  font-size: 24px;
-  color: #222930;
-  line-height: 32px;
-  @include breakpoint(sm) {
-    font-size: 21px;
-  }
-}
-
-h5 {
-  font-family: $aktiv-m;
-  font-size: 21px;
-  color: #222930;
-}
-
-h6 {
-  font-family: $exo;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: 1.5px;
-  color: #ff9c2e;
-  text-transform: uppercase;
-}
-
-p {
-  font-family: $aktiv;
-  font-size: 16px;
-  font-weight: 500;
-  color: #606e7b;
-  line-height: 2;
-  letter-spacing: normal;
-  .-header {
-    color: #ffffff;
-  }
-}
-
-li {
-  font-family: $aktiv;
-  font-size: 16px;
-  font-weight: 500;
-  color: #606e7b;
-  line-height: 2;
-  letter-spacing: normal;
-}
-
-a {
-  color: #fe9c37;
-  &:hover {
-    color: #fe9c37;
-  }
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
 }

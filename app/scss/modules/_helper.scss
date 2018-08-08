@@ -189,14 +189,8 @@
 .pt10 {
   padding-top: 10px !important;
 }
-.pt15 {
-  padding-top: 15px !important;
-}
 .pt20 {
   padding-top: 20px !important;
-}
-.pt25 {
-  padding-top: 25px !important;
 }
 .pt30 {
   padding-top: 30px !important;
@@ -291,9 +285,6 @@
 .pr0 {
   padding-right: 0px !important;
 }
-.pr5 {
-  padding-right: 5px !important;
-}
 .pr10 {
   padding-right: 10px !important;
 }
@@ -356,27 +347,4 @@
 }
 .p100 {
   padding: 100px !important;
-}
-
-.hr {
-  margin: 15px 0;
-}
-
-.top-border {
-  width: 100%;
-  height: 6px;
-  background-image: linear-gradient(to right, #ffd13d, #ff962c);
-}
-
-.breadcrumbs {
-  margin-top: 20px;
-  color: #fff;
-  a {
-    font-family: "Exo 2", sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: 1.5px;
-    color: #fff;
-  }
 }

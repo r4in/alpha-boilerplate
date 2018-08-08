@@ -1,6 +1,6 @@
-[![forthebadge](http://forthebadge.com/images/badges/does-not-contain-msg.svg)](http://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg](http://forthebadge.com)
 
-# Static Boilerplate
+# Alpha Boilerplate
 
 [![Build Status](https://travis-ci.org/h5bp/html5-boilerplate.svg)](https://travis-ci.org/h5bp/html5-boilerplate)
 [![devDependency Status](https://david-dm.org/h5bp/html5-boilerplate/dev-status.svg)](https://david-dm.org/h5bp/html5-boilerplate#info=devDependencies)
@@ -25,21 +25,21 @@ How To Use:
 
 ## Features
 
-* Jam packed with [`HTML5`](https://html5boilerplate.com/) goodness.
-* [`Bootstrap 4.css`](https://getbootstrap.com/)
+- Jam packed with [`HTML5`](https://html5boilerplate.com/) goodness.
+- [`Bootstrap 4.css`](https://getbootstrap.com/)
   Latest bootstrap framework
-* [`Reboot`](https://github.com/twbs/bootstrap/blob/v4-dev/scss/_reboot.scss)
+- [`Reboot`](https://github.com/twbs/bootstrap/blob/v4-dev/scss/_reboot.scss)
   An continous switch from css reset to normalize to reboot
-* [`jQuery`](https://jquery.com/) via CDN, with a local fallback
+- [`jQuery`](https://jquery.com/) via CDN, with a local fallback
 
 ## Browser support
 
-* Chrome _(latest 2)_
-* Edge _(latest 2)_
-* Firefox _(latest 2)_
-* Internet Explorer 8+
-* Opera _(latest 2)_
-* Safari _(latest 2)_
+- Chrome _(latest 2)_
+- Edge _(latest 2)_
+- Firefox _(latest 2)_
+- Internet Explorer 8+
+- Opera _(latest 2)_
+- Safari _(latest 2)_
 
 _This doesn't mean that HTML5 Boilerplate cannot be used in older browsers, just that we'll ensure compatibility with the ones mentioned above._
 
