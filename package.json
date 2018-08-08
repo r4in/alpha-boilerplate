@@ -1,6 +1,6 @@
 {
   "name": "alpha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Alpha is a simple static site boilerplate",
   "main": "index.js",
   "scripts": {
@@ -10,14 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/r4in/alpha.git"
   },
-  "author": "",
+  "author": "Francis Alturas",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/r4in/alpha/issues"
   },
   "homepage": "https://github.com/r4in/alpha#readme",
   "devDependencies": {
-    "browser-sync": "^2.24.4",
+    "browser-sync": "^2.24.6",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
@@ -29,9 +29,9 @@
     "gulp-sass": "^4.0.1",
     "gulp-sass-glob": "^1.0.9",
     "gulp-sourcemaps": "^2.6.4",
-    "gulp-uglify": "^3.0.0",
+    "gulp-uglify": "^3.0.1",
     "gulp-useref": "^3.1.5",
-    "postcss-scss": "^1.0.5",
+    "postcss-scss": "^2.0.0",
     "run-sequence": "^2.2.1"
   }
 }
