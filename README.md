@@ -13,7 +13,7 @@ This is just something that currently fits in my current workflow & process when
 
 How To Use:
 
-1.  Clone the git repo — `git clone https://github.com/h5bp/html5-boilerplate.git`
+1.  Clone the git repo — `git clone https://github.com/r4in/alpha-boilerplate.git`
 
 2.  Install all node dependencies with `npm install --save-dev`. I'm using Gulp as my primary task runner for autotomating stuff around.
 
