@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/h5bp/html5-boilerplate.svg)](https://travis-ci.org/h5bp/html5-boilerplate)
 [![devDependency Status](https://david-dm.org/h5bp/html5-boilerplate/dev-status.svg)](https://david-dm.org/h5bp/html5-boilerplate#info=devDependencies)
 
-Static Boilerplate is a frontend template I just mashed up based on the [HTML5 Boilerplate](https://html5boilerplate.com), [Travis Neilson's DevTips StarterKit](https://github.com/DevTips/DevTips-Starter-Kit) packed with [Zell Liew's Gulp](http://zellwk.com/blog/gulp-tutorial/) goodness.
+Alpha is a static site boilerplate I mashed up based on the [HTML5 Boilerplate](https://html5boilerplate.com), [Travis Neilson's DevTips StarterKit](https://github.com/DevTips/DevTips-Starter-Kit) packed with [Zell Liew's Gulp](http://zellwk.com/blog/gulp-tutorial/) goodness.
 
 This is just something that currently fits in my current workflow & process when I want to build a really simple static site. So feel free to fork or improve this repo by shooting a pull request! :)
 
