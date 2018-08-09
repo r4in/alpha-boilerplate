@@ -9,8 +9,6 @@ Static Boilerplate is a frontend template I just mashed up based on the [HTML5 B
 
 This is just something that currently fits in my current workflow & process when I want to build a really simple static site. So feel free to fork or improve this repo by shooting a pull request! :)
 
-Source: [Static Boilerplate](https://github.com/r4in/static-boilerplate)
-
 ## Quick start
 
 How To Use:
