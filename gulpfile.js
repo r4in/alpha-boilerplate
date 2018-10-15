@@ -29,7 +29,7 @@ var htmlmin = require("gulp-htmlmin");
 var useref = require("gulp-useref");
 
 // minifying JavaScript files
-var uglify = require("gulp-uglify");
+var uglify = require("gulp-uglify-es").default;
 
 // caching images when optimizing
 var cache = require("gulp-cache");
